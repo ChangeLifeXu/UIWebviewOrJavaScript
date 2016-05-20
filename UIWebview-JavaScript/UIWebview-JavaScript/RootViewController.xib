@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10109" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10083"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RootViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KIl-L0-aX9">
+                    <rect key="frame" x="185" y="90" width="230" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.67670514169999996" blue="0.79451193769999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="CwQ-EP-PLl"/>
+                        <constraint firstAttribute="width" constant="230" id="EfZ-Fv-er2"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="VTZ-vn-tjS"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="230" id="w4G-g9-8ip"/>
+                    </constraints>
+                    <state key="normal" title="交互通信实例"/>
+                    <connections>
+                        <action selector="CommunicationSimple:" destination="-1" eventType="touchUpInside" id="s5Z-eD-LY2"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZmO-ac-mK9">
+                    <rect key="frame" x="185" y="144" width="230" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.67670514169999996" blue="0.79451193769999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="30" id="4Pm-7X-d6E"/>
+                        <constraint firstAttribute="height" constant="30" id="MH9-vU-OxG"/>
+                        <constraint firstAttribute="width" constant="230" id="R57-8q-Vnx"/>
+                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="230" id="j0o-WS-WS5"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="230" id="wVb-NG-I7o"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="xqd-ZQ-WIl"/>
+                    </constraints>
+                    <state key="normal" title="UIWebView---JavaScript"/>
+                    <connections>
+                        <action selector="UIWebViewToJavaScript:" destination="-1" eventType="touchUpInside" id="mcZ-qd-VBU"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ZmO-ac-mK9" firstAttribute="top" secondItem="KIl-L0-aX9" secondAttribute="bottom" constant="24" id="DTa-sh-Nap"/>
+                <constraint firstItem="KIl-L0-aX9" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="HO1-NC-Noj"/>
+                <constraint firstItem="KIl-L0-aX9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="90" id="QoA-ur-GVw"/>
+                <constraint firstItem="ZmO-ac-mK9" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="nOu-en-4wd"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

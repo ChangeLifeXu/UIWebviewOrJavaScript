@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootViewController.h
 //  UIWebview-JavaScript
 //
 //  Created by Hubert on 16/5/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface RootViewController : UIViewController
 
 @end
-

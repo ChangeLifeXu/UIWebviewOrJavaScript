@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10109" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10083"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UIWebviewToJavaScriptVC">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webView" destination="ftZ-rz-Igi" id="d6W-Mm-DDO"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ftZ-rz-Igi">
+                    <rect key="frame" x="0.0" y="60" width="375" height="228"/>
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                </webView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FLh-fK-vPb">
+                    <rect key="frame" x="117" y="303" width="193" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.67670514169999996" blue="0.79451193769999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="执行已经存在的js方法和传值"/>
+                    <connections>
+                        <action selector="exeMethodsOrSendValue:" destination="-1" eventType="touchUpInside" id="kk4-A0-Y1z"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Opb-pB-ldS">
+                    <rect key="frame" x="22" y="303" width="87" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.67670514169999996" blue="0.79451193769999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="刷新html"/>
+                    <connections>
+                        <action selector="RefreshHTML:" destination="-1" eventType="touchUpInside" id="0NO-Nz-Rg4"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KHj-NU-aFc">
+                    <rect key="frame" x="22" y="379" width="213" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.67670514169999996" blue="0.79451193769999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="getElementsByName 填input"/>
+                    <connections>
+                        <action selector="InsertInput:" destination="-1" eventType="touchUpInside" id="xBt-EE-ymf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZyR-L8-Se3">
+                    <rect key="frame" x="22" y="417" width="213" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.67670514169999996" blue="0.79451193769999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="getElementById插入html"/>
+                    <connections>
+                        <action selector="GetElementByIdInsertHTML:" destination="-1" eventType="touchUpInside" id="u5A-8e-neC"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xdg-xJ-dVU">
+                    <rect key="frame" x="22" y="455" width="138" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.67670514169999996" blue="0.79451193769999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="插入JS并且执行"/>
+                    <connections>
+                        <action selector="InsertJS:" destination="-1" eventType="touchUpInside" id="ORW-fW-ivz"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hii-aj-aXv">
+                    <rect key="frame" x="168" y="455" width="144" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.67670514169999996" blue="0.79451193769999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="替换图片地址"/>
+                    <connections>
+                        <action selector="ChangeImage:" destination="-1" eventType="touchUpInside" id="oCj-rF-qkO"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F7z-5D-3OU">
+                    <rect key="frame" x="22" y="341" width="288" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.67670514169999996" blue="0.79451193769999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="自带标签getElementsByTagName插入html"/>
+                    <connections>
+                        <action selector="TheLabelInsertHTML:" destination="-1" eventType="touchUpInside" id="C5I-af-sKh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8s5-Uj-dgd">
+                    <rect key="frame" x="22" y="493" width="138" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.67670514169999996" blue="0.79451193769999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="修改标签字体"/>
+                    <connections>
+                        <action selector="ChangeFontSize:" destination="-1" eventType="touchUpInside" id="sVK-0E-eLD"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mf2-hj-Nu5">
+                    <rect key="frame" x="168" y="493" width="142" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.67670514169999996" blue="0.79451193769999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="上传图片"/>
+                    <connections>
+                        <action selector="sendImage:" destination="-1" eventType="touchUpInside" id="fAY-AA-87B"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nFA-06-2Y6">
+                    <rect key="frame" x="254" y="379" width="56" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.67670514169999996" blue="0.79451193769999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="提交"/>
+                    <connections>
+                        <action selector="commitRequest:" destination="-1" eventType="touchUpInside" id="SWb-GT-pYJ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZC-hs-Lzc">
+                    <rect key="frame" x="254" y="417" width="56" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.67670514169999996" blue="0.79451193769999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="定位"/>
+                    <connections>
+                        <action selector="Location:" destination="-1" eventType="touchUpInside" id="T8K-ax-4QK"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="64" y="159"/>
+        </view>
+        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cDf-01-DvJ">
+            <rect key="frame" x="0.0" y="0.0" width="138" height="30"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" red="1" green="0.67670514169999996" blue="0.79451193769999995" alpha="1" colorSpace="calibratedRGB"/>
+            <state key="normal" title="修改标签字体"/>
+        </button>
+    </objects>
+</document>

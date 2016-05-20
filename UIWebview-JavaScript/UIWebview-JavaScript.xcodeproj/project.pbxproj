@@ -7,25 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9CB36FA61CE9947E001AA4EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB36FA51CE9947E001AA4EC /* main.m */; };
-		9CB36FA91CE9947E001AA4EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB36FA81CE9947E001AA4EC /* AppDelegate.m */; };
-		9CB36FAC1CE9947E001AA4EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB36FAB1CE9947E001AA4EC /* ViewController.m */; };
-		9CB36FAF1CE9947E001AA4EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB36FAD1CE9947E001AA4EC /* Main.storyboard */; };
-		9CB36FB11CE9947E001AA4EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CB36FB01CE9947E001AA4EC /* Assets.xcassets */; };
-		9CB36FB41CE9947E001AA4EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB36FB21CE9947E001AA4EC /* LaunchScreen.storyboard */; };
+		9CB36FBE1CE99DE7001AA4EC /* CommunicationSimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB36FBD1CE99DE7001AA4EC /* CommunicationSimpleViewController.m */; };
+		9CB36FC51CE9A24C001AA4EC /* indexTest.html in Resources */ = {isa = PBXBuildFile; fileRef = 9CB36FC41CE9A24C001AA4EC /* indexTest.html */; };
+		9CB36FE51CE9A7A7001AA4EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB36FE41CE9A7A7001AA4EC /* AppDelegate.m */; };
+		9CB36FE91CE9A7B3001AA4EC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB36FE71CE9A7B3001AA4EC /* RootViewController.m */; };
+		9CB36FEA1CE9A7B3001AA4EC /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CB36FE81CE9A7B3001AA4EC /* RootViewController.xib */; };
+		9CB36FEC1CE9A7BA001AA4EC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9CB36FEB1CE9A7BA001AA4EC /* Info.plist */; };
+		9CB36FF01CE9A800001AA4EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB36FEF1CE9A800001AA4EC /* main.m */; };
+		9CB36FF21CE9A81A001AA4EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB36FF11CE9A81A001AA4EC /* LaunchScreen.storyboard */; };
+		9CB36FF41CE9A823001AA4EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB36FF31CE9A823001AA4EC /* Main.storyboard */; };
+		9CB36FF91CE9A88C001AA4EC /* UIWebviewToJavaScriptVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB36FF71CE9A88C001AA4EC /* UIWebviewToJavaScriptVC.m */; };
+		9CB36FFA1CE9A88C001AA4EC /* UIWebviewToJavaScriptVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CB36FF81CE9A88C001AA4EC /* UIWebviewToJavaScriptVC.xib */; };
+		9CB36FFC1CE9B72D001AA4EC /* UIWebViewJS.html in Resources */ = {isa = PBXBuildFile; fileRef = 9CB36FFB1CE9B72D001AA4EC /* UIWebViewJS.html */; };
+		9CB36FFF1CE9B7E9001AA4EC /* light_advice.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CB36FFD1CE9B7E9001AA4EC /* light_advice.png */; };
+		9CB370001CE9B7E9001AA4EC /* light_illstration.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CB36FFE1CE9B7E9001AA4EC /* light_illstration.png */; };
+		9CB370021CE9C197001AA4EC /* UIWebViewJS_location.html in Resources */ = {isa = PBXBuildFile; fileRef = 9CB370011CE9C197001AA4EC /* UIWebViewJS_location.html */; };
+		9CB370041CE9C28A001AA4EC /* UIWebViewJS_file.html in Resources */ = {isa = PBXBuildFile; fileRef = 9CB370031CE9C28A001AA4EC /* UIWebViewJS_file.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9CB36FA11CE9947E001AA4EC /* UIWebview-JavaScript.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIWebview-JavaScript.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CB36FA51CE9947E001AA4EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9CB36FA71CE9947E001AA4EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9CB36FA81CE9947E001AA4EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9CB36FAA1CE9947E001AA4EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9CB36FAB1CE9947E001AA4EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9CB36FAE1CE9947E001AA4EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9CB36FB01CE9947E001AA4EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9CB36FB31CE9947E001AA4EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9CB36FB51CE9947E001AA4EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB36FBC1CE99DE7001AA4EC /* CommunicationSimpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunicationSimpleViewController.h; sourceTree = "<group>"; };
+		9CB36FBD1CE99DE7001AA4EC /* CommunicationSimpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunicationSimpleViewController.m; sourceTree = "<group>"; };
+		9CB36FC41CE9A24C001AA4EC /* indexTest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = indexTest.html; path = ../indexTest.html; sourceTree = "<group>"; };
+		9CB36FE31CE9A7A7001AA4EC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9CB36FE41CE9A7A7001AA4EC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9CB36FE61CE9A7B3001AA4EC /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		9CB36FE71CE9A7B3001AA4EC /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		9CB36FE81CE9A7B3001AA4EC /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		9CB36FEB1CE9A7BA001AA4EC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB36FEF1CE9A800001AA4EC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CB36FF11CE9A81A001AA4EC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CB36FF31CE9A823001AA4EC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9CB36FF61CE9A88C001AA4EC /* UIWebviewToJavaScriptVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebviewToJavaScriptVC.h; sourceTree = "<group>"; };
+		9CB36FF71CE9A88C001AA4EC /* UIWebviewToJavaScriptVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebviewToJavaScriptVC.m; sourceTree = "<group>"; };
+		9CB36FF81CE9A88C001AA4EC /* UIWebviewToJavaScriptVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIWebviewToJavaScriptVC.xib; sourceTree = "<group>"; };
+		9CB36FFB1CE9B72D001AA4EC /* UIWebViewJS.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = UIWebViewJS.html; sourceTree = "<group>"; };
+		9CB36FFD1CE9B7E9001AA4EC /* light_advice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_advice.png; sourceTree = "<group>"; };
+		9CB36FFE1CE9B7E9001AA4EC /* light_illstration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_illstration.png; sourceTree = "<group>"; };
+		9CB370011CE9C197001AA4EC /* UIWebViewJS_location.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = UIWebViewJS_location.html; sourceTree = "<group>"; };
+		9CB370031CE9C28A001AA4EC /* UIWebViewJS_file.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = UIWebViewJS_file.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +63,8 @@
 		9CB36F981CE9947E001AA4EC = {
 			isa = PBXGroup;
 			children = (
+				9CB36FF51CE9A86D001AA4EC /* UIWebviewToJavaScript */,
+				9CB36FBB1CE99DA8001AA4EC /* SimpleInterface */,
 				9CB36FA31CE9947E001AA4EC /* UIWebview-JavaScript */,
 				9CB36FA21CE9947E001AA4EC /* Products */,
 			);
@@ -58,14 +81,14 @@
 		9CB36FA31CE9947E001AA4EC /* UIWebview-JavaScript */ = {
 			isa = PBXGroup;
 			children = (
-				9CB36FA71CE9947E001AA4EC /* AppDelegate.h */,
-				9CB36FA81CE9947E001AA4EC /* AppDelegate.m */,
-				9CB36FAA1CE9947E001AA4EC /* ViewController.h */,
-				9CB36FAB1CE9947E001AA4EC /* ViewController.m */,
-				9CB36FAD1CE9947E001AA4EC /* Main.storyboard */,
-				9CB36FB01CE9947E001AA4EC /* Assets.xcassets */,
-				9CB36FB21CE9947E001AA4EC /* LaunchScreen.storyboard */,
-				9CB36FB51CE9947E001AA4EC /* Info.plist */,
+				9CB36FE31CE9A7A7001AA4EC /* AppDelegate.h */,
+				9CB36FE41CE9A7A7001AA4EC /* AppDelegate.m */,
+				9CB36FE61CE9A7B3001AA4EC /* RootViewController.h */,
+				9CB36FE71CE9A7B3001AA4EC /* RootViewController.m */,
+				9CB36FE81CE9A7B3001AA4EC /* RootViewController.xib */,
+				9CB36FEB1CE9A7BA001AA4EC /* Info.plist */,
+				9CB36FF31CE9A823001AA4EC /* Main.storyboard */,
+				9CB36FF11CE9A81A001AA4EC /* LaunchScreen.storyboard */,
 				9CB36FA41CE9947E001AA4EC /* Supporting Files */,
 			);
 			path = "UIWebview-JavaScript";
@@ -74,9 +97,34 @@
 		9CB36FA41CE9947E001AA4EC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9CB36FA51CE9947E001AA4EC /* main.m */,
+				9CB36FEF1CE9A800001AA4EC /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CB36FBB1CE99DA8001AA4EC /* SimpleInterface */ = {
+			isa = PBXGroup;
+			children = (
+				9CB36FC41CE9A24C001AA4EC /* indexTest.html */,
+				9CB36FBC1CE99DE7001AA4EC /* CommunicationSimpleViewController.h */,
+				9CB36FBD1CE99DE7001AA4EC /* CommunicationSimpleViewController.m */,
+			);
+			path = SimpleInterface;
+			sourceTree = "<group>";
+		};
+		9CB36FF51CE9A86D001AA4EC /* UIWebviewToJavaScript */ = {
+			isa = PBXGroup;
+			children = (
+				9CB36FFB1CE9B72D001AA4EC /* UIWebViewJS.html */,
+				9CB370011CE9C197001AA4EC /* UIWebViewJS_location.html */,
+				9CB370031CE9C28A001AA4EC /* UIWebViewJS_file.html */,
+				9CB36FFD1CE9B7E9001AA4EC /* light_advice.png */,
+				9CB36FFE1CE9B7E9001AA4EC /* light_illstration.png */,
+				9CB36FF61CE9A88C001AA4EC /* UIWebviewToJavaScriptVC.h */,
+				9CB36FF71CE9A88C001AA4EC /* UIWebviewToJavaScriptVC.m */,
+				9CB36FF81CE9A88C001AA4EC /* UIWebviewToJavaScriptVC.xib */,
+			);
+			path = UIWebviewToJavaScript;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +184,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CB36FB41CE9947E001AA4EC /* LaunchScreen.storyboard in Resources */,
-				9CB36FB11CE9947E001AA4EC /* Assets.xcassets in Resources */,
-				9CB36FAF1CE9947E001AA4EC /* Main.storyboard in Resources */,
+				9CB36FC51CE9A24C001AA4EC /* indexTest.html in Resources */,
+				9CB370041CE9C28A001AA4EC /* UIWebViewJS_file.html in Resources */,
+				9CB36FF41CE9A823001AA4EC /* Main.storyboard in Resources */,
+				9CB370021CE9C197001AA4EC /* UIWebViewJS_location.html in Resources */,
+				9CB36FF21CE9A81A001AA4EC /* LaunchScreen.storyboard in Resources */,
+				9CB36FEA1CE9A7B3001AA4EC /* RootViewController.xib in Resources */,
+				9CB36FFA1CE9A88C001AA4EC /* UIWebviewToJavaScriptVC.xib in Resources */,
+				9CB36FFC1CE9B72D001AA4EC /* UIWebViewJS.html in Resources */,
+				9CB36FFF1CE9B7E9001AA4EC /* light_advice.png in Resources */,
+				9CB370001CE9B7E9001AA4EC /* light_illstration.png in Resources */,
+				9CB36FEC1CE9A7BA001AA4EC /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,32 +205,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CB36FAC1CE9947E001AA4EC /* ViewController.m in Sources */,
-				9CB36FA91CE9947E001AA4EC /* AppDelegate.m in Sources */,
-				9CB36FA61CE9947E001AA4EC /* main.m in Sources */,
+				9CB36FBE1CE99DE7001AA4EC /* CommunicationSimpleViewController.m in Sources */,
+				9CB36FE91CE9A7B3001AA4EC /* RootViewController.m in Sources */,
+				9CB36FF91CE9A88C001AA4EC /* UIWebviewToJavaScriptVC.m in Sources */,
+				9CB36FF01CE9A800001AA4EC /* main.m in Sources */,
+				9CB36FE51CE9A7A7001AA4EC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		9CB36FAD1CE9947E001AA4EC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9CB36FAE1CE9947E001AA4EC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9CB36FB21CE9947E001AA4EC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9CB36FB31CE9947E001AA4EC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9CB36FB61CE9947E001AA4EC /* Debug */ = {
@@ -264,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "UIWebview-JavaScript/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.5173.UIWebview-JavaScript";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "UIWebview-JavaScript/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.5173.UIWebview-JavaScript";
 				PRODUCT_NAME = "$(TARGET_NAME)";
