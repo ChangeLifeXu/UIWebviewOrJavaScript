@@ -9,6 +9,9 @@
 #import "RootViewController.h"
 #import "CommunicationSimpleViewController.h"
 #import "UIWebviewToJavaScriptVC.h"
+#import "JavaScriptToUIWebView.h"
+
+#import "JavaScriptCoreTOC.h"
 
 @interface RootViewController ()
 
@@ -32,6 +35,22 @@
     UIWebviewToJavaScriptVC *vc = [[UIWebviewToJavaScriptVC alloc] initWithNibName:@"UIWebviewToJavaScriptVC" bundle:nil];
     [self.navigationController pushViewController:vc animated:YES];
 }
+
+- (IBAction)JavaScriptToUIWebView:(id)sender {
+    JavaScriptToUIWebView *vc = [[JavaScriptToUIWebView alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (IBAction)JavaScriptCoreToOC:(id)sender {
+    JavaScriptCoreTOC *vc = [[JavaScriptCoreTOC alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (IBAction)OCToJavaScriptCore:(id)sender {
+}
+
+
+
 
 
 - (void)didReceiveMemoryWarning {

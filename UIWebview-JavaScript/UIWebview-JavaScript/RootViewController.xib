@@ -45,13 +45,55 @@
                         <action selector="UIWebViewToJavaScript:" destination="-1" eventType="touchUpInside" id="mcZ-qd-VBU"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBc-C2-RhU">
+                    <rect key="frame" x="185" y="197" width="230" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.67670514169999996" blue="0.79451193769999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="230" id="FEb-jp-SuJ"/>
+                        <constraint firstAttribute="height" constant="30" id="iQa-wy-KoR"/>
+                    </constraints>
+                    <state key="normal" title="JavaScript---UIWebView"/>
+                    <connections>
+                        <action selector="JavaScriptToUIWebView:" destination="-1" eventType="touchUpInside" id="IDe-Yz-RcI"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u5Z-vG-AUA">
+                    <rect key="frame" x="185" y="249" width="230" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.67670514169999996" blue="0.79451193769999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="230" id="Lkj-Gy-why"/>
+                        <constraint firstAttribute="height" constant="30" id="Of9-99-XbO"/>
+                    </constraints>
+                    <state key="normal" title="JavaScriptCore---OC"/>
+                    <connections>
+                        <action selector="JavaScriptCoreToOC:" destination="-1" eventType="touchUpInside" id="aJ8-hu-Pob"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HYg-cV-I6A">
+                    <rect key="frame" x="185" y="302" width="230" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.67670514169999996" blue="0.79451193769999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="230" id="gWE-XB-ObH"/>
+                        <constraint firstAttribute="height" constant="30" id="w8q-9s-QaE"/>
+                    </constraints>
+                    <state key="normal" title="OC---JavaScriptCore"/>
+                    <connections>
+                        <action selector="OCToJavaScriptCore:" destination="-1" eventType="touchUpInside" id="mju-pi-KNT"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstItem="WBc-C2-RhU" firstAttribute="top" secondItem="ZmO-ac-mK9" secondAttribute="bottom" constant="23" id="0ZL-qS-xtg"/>
                 <constraint firstItem="ZmO-ac-mK9" firstAttribute="top" secondItem="KIl-L0-aX9" secondAttribute="bottom" constant="24" id="DTa-sh-Nap"/>
                 <constraint firstItem="KIl-L0-aX9" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="HO1-NC-Noj"/>
                 <constraint firstItem="KIl-L0-aX9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="90" id="QoA-ur-GVw"/>
+                <constraint firstItem="WBc-C2-RhU" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="UrQ-dF-jHt"/>
+                <constraint firstItem="HYg-cV-I6A" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="dMF-9Q-Zzf"/>
+                <constraint firstItem="u5Z-vG-AUA" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="iAj-YH-SJ1"/>
                 <constraint firstItem="ZmO-ac-mK9" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="nOu-en-4wd"/>
+                <constraint firstItem="u5Z-vG-AUA" firstAttribute="top" secondItem="WBc-C2-RhU" secondAttribute="bottom" constant="22" id="oXT-Z4-wXa"/>
+                <constraint firstItem="HYg-cV-I6A" firstAttribute="top" secondItem="u5Z-vG-AUA" secondAttribute="bottom" constant="23" id="svF-hr-tYK"/>
             </constraints>
         </view>
     </objects>

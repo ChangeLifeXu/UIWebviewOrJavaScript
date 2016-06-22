@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C4E7DE01D191AE100BFE567 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4E7DDF1D191AE100BFE567 /* JavaScriptCore.framework */; };
+		9C4E7DE71D19486200BFE567 /* JSCallOC.html in Resources */ = {isa = PBXBuildFile; fileRef = 9C4E7DE61D19486200BFE567 /* JSCallOC.html */; };
+		9C4E7DE91D195F1000BFE567 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4E7DE81D195F1000BFE567 /* Main.storyboard */; };
+		9C7052671D1A39EB006CE737 /* JavaScriptCoreTOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7052661D1A39EB006CE737 /* JavaScriptCoreTOC.m */; };
+		9CA4C04D1D0697A600CF341F /* JavaScriptToUIWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA4C04C1D0697A600CF341F /* JavaScriptToUIWebView.m */; };
+		9CA4C04F1D0697FD00CF341F /* JSUIWebView.html in Resources */ = {isa = PBXBuildFile; fileRef = 9CA4C04E1D0697FD00CF341F /* JSUIWebView.html */; };
 		9CB36FBE1CE99DE7001AA4EC /* CommunicationSimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB36FBD1CE99DE7001AA4EC /* CommunicationSimpleViewController.m */; };
 		9CB36FC51CE9A24C001AA4EC /* indexTest.html in Resources */ = {isa = PBXBuildFile; fileRef = 9CB36FC41CE9A24C001AA4EC /* indexTest.html */; };
 		9CB36FE51CE9A7A7001AA4EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB36FE41CE9A7A7001AA4EC /* AppDelegate.m */; };
@@ -15,7 +21,6 @@
 		9CB36FEC1CE9A7BA001AA4EC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9CB36FEB1CE9A7BA001AA4EC /* Info.plist */; };
 		9CB36FF01CE9A800001AA4EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB36FEF1CE9A800001AA4EC /* main.m */; };
 		9CB36FF21CE9A81A001AA4EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB36FF11CE9A81A001AA4EC /* LaunchScreen.storyboard */; };
-		9CB36FF41CE9A823001AA4EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB36FF31CE9A823001AA4EC /* Main.storyboard */; };
 		9CB36FF91CE9A88C001AA4EC /* UIWebviewToJavaScriptVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB36FF71CE9A88C001AA4EC /* UIWebviewToJavaScriptVC.m */; };
 		9CB36FFA1CE9A88C001AA4EC /* UIWebviewToJavaScriptVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CB36FF81CE9A88C001AA4EC /* UIWebviewToJavaScriptVC.xib */; };
 		9CB36FFC1CE9B72D001AA4EC /* UIWebViewJS.html in Resources */ = {isa = PBXBuildFile; fileRef = 9CB36FFB1CE9B72D001AA4EC /* UIWebViewJS.html */; };
@@ -26,6 +31,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C4E7DDF1D191AE100BFE567 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		9C4E7DE61D19486200BFE567 /* JSCallOC.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JSCallOC.html; sourceTree = "<group>"; };
+		9C4E7DE81D195F1000BFE567 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9C7052651D1A39EB006CE737 /* JavaScriptCoreTOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaScriptCoreTOC.h; sourceTree = "<group>"; };
+		9C7052661D1A39EB006CE737 /* JavaScriptCoreTOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavaScriptCoreTOC.m; sourceTree = "<group>"; };
+		9CA4C04B1D0697A600CF341F /* JavaScriptToUIWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaScriptToUIWebView.h; sourceTree = "<group>"; };
+		9CA4C04C1D0697A600CF341F /* JavaScriptToUIWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavaScriptToUIWebView.m; sourceTree = "<group>"; };
+		9CA4C04E1D0697FD00CF341F /* JSUIWebView.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JSUIWebView.html; sourceTree = "<group>"; };
 		9CB36FA11CE9947E001AA4EC /* UIWebview-JavaScript.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIWebview-JavaScript.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CB36FBC1CE99DE7001AA4EC /* CommunicationSimpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunicationSimpleViewController.h; sourceTree = "<group>"; };
 		9CB36FBD1CE99DE7001AA4EC /* CommunicationSimpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunicationSimpleViewController.m; sourceTree = "<group>"; };
@@ -38,7 +51,6 @@
 		9CB36FEB1CE9A7BA001AA4EC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CB36FEF1CE9A800001AA4EC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9CB36FF11CE9A81A001AA4EC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9CB36FF31CE9A823001AA4EC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9CB36FF61CE9A88C001AA4EC /* UIWebviewToJavaScriptVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebviewToJavaScriptVC.h; sourceTree = "<group>"; };
 		9CB36FF71CE9A88C001AA4EC /* UIWebviewToJavaScriptVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebviewToJavaScriptVC.m; sourceTree = "<group>"; };
 		9CB36FF81CE9A88C001AA4EC /* UIWebviewToJavaScriptVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIWebviewToJavaScriptVC.xib; sourceTree = "<group>"; };
@@ -54,17 +66,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C4E7DE01D191AE100BFE567 /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C4E7DDE1D18E7C300BFE567 /* JavaScriptCoreToOC  */ = {
+			isa = PBXGroup;
+			children = (
+				9C4E7DE61D19486200BFE567 /* JSCallOC.html */,
+				9C7052651D1A39EB006CE737 /* JavaScriptCoreTOC.h */,
+				9C7052661D1A39EB006CE737 /* JavaScriptCoreTOC.m */,
+			);
+			name = "JavaScriptCoreToOC ";
+			sourceTree = "<group>";
+		};
+		9CA4C04A1D06976900CF341F /* JavaScriptToUIWebView */ = {
+			isa = PBXGroup;
+			children = (
+				9CA4C04E1D0697FD00CF341F /* JSUIWebView.html */,
+				9CA4C04B1D0697A600CF341F /* JavaScriptToUIWebView.h */,
+				9CA4C04C1D0697A600CF341F /* JavaScriptToUIWebView.m */,
+			);
+			name = JavaScriptToUIWebView;
+			sourceTree = "<group>";
+		};
 		9CB36F981CE9947E001AA4EC = {
 			isa = PBXGroup;
 			children = (
-				9CB36FF51CE9A86D001AA4EC /* UIWebviewToJavaScript */,
-				9CB36FBB1CE99DA8001AA4EC /* SimpleInterface */,
+				9C4E7DDF1D191AE100BFE567 /* JavaScriptCore.framework */,
+				9CDADF4B1D18E60800927C81 /* JavaScriptCore */,
+				9CDADF4A1D18E5F200927C81 /* UIWebView */,
 				9CB36FA31CE9947E001AA4EC /* UIWebview-JavaScript */,
 				9CB36FA21CE9947E001AA4EC /* Products */,
 			);
@@ -86,8 +120,8 @@
 				9CB36FE61CE9A7B3001AA4EC /* RootViewController.h */,
 				9CB36FE71CE9A7B3001AA4EC /* RootViewController.m */,
 				9CB36FE81CE9A7B3001AA4EC /* RootViewController.xib */,
+				9C4E7DE81D195F1000BFE567 /* Main.storyboard */,
 				9CB36FEB1CE9A7BA001AA4EC /* Info.plist */,
-				9CB36FF31CE9A823001AA4EC /* Main.storyboard */,
 				9CB36FF11CE9A81A001AA4EC /* LaunchScreen.storyboard */,
 				9CB36FA41CE9947E001AA4EC /* Supporting Files */,
 			);
@@ -125,6 +159,24 @@
 				9CB36FF81CE9A88C001AA4EC /* UIWebviewToJavaScriptVC.xib */,
 			);
 			path = UIWebviewToJavaScript;
+			sourceTree = "<group>";
+		};
+		9CDADF4A1D18E5F200927C81 /* UIWebView */ = {
+			isa = PBXGroup;
+			children = (
+				9CB36FBB1CE99DA8001AA4EC /* SimpleInterface */,
+				9CB36FF51CE9A86D001AA4EC /* UIWebviewToJavaScript */,
+				9CA4C04A1D06976900CF341F /* JavaScriptToUIWebView */,
+			);
+			name = UIWebView;
+			sourceTree = "<group>";
+		};
+		9CDADF4B1D18E60800927C81 /* JavaScriptCore */ = {
+			isa = PBXGroup;
+			children = (
+				9C4E7DDE1D18E7C300BFE567 /* JavaScriptCoreToOC  */,
+			);
+			name = JavaScriptCore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,12 +238,14 @@
 			files = (
 				9CB36FC51CE9A24C001AA4EC /* indexTest.html in Resources */,
 				9CB370041CE9C28A001AA4EC /* UIWebViewJS_file.html in Resources */,
-				9CB36FF41CE9A823001AA4EC /* Main.storyboard in Resources */,
+				9CA4C04F1D0697FD00CF341F /* JSUIWebView.html in Resources */,
 				9CB370021CE9C197001AA4EC /* UIWebViewJS_location.html in Resources */,
 				9CB36FF21CE9A81A001AA4EC /* LaunchScreen.storyboard in Resources */,
 				9CB36FEA1CE9A7B3001AA4EC /* RootViewController.xib in Resources */,
 				9CB36FFA1CE9A88C001AA4EC /* UIWebviewToJavaScriptVC.xib in Resources */,
+				9C4E7DE91D195F1000BFE567 /* Main.storyboard in Resources */,
 				9CB36FFC1CE9B72D001AA4EC /* UIWebViewJS.html in Resources */,
+				9C4E7DE71D19486200BFE567 /* JSCallOC.html in Resources */,
 				9CB36FFF1CE9B7E9001AA4EC /* light_advice.png in Resources */,
 				9CB370001CE9B7E9001AA4EC /* light_illstration.png in Resources */,
 				9CB36FEC1CE9A7BA001AA4EC /* Info.plist in Resources */,
@@ -208,6 +262,8 @@
 				9CB36FBE1CE99DE7001AA4EC /* CommunicationSimpleViewController.m in Sources */,
 				9CB36FE91CE9A7B3001AA4EC /* RootViewController.m in Sources */,
 				9CB36FF91CE9A88C001AA4EC /* UIWebviewToJavaScriptVC.m in Sources */,
+				9C7052671D1A39EB006CE737 /* JavaScriptCoreTOC.m in Sources */,
+				9CA4C04D1D0697A600CF341F /* JavaScriptToUIWebView.m in Sources */,
 				9CB36FF01CE9A800001AA4EC /* main.m in Sources */,
 				9CB36FE51CE9A7A7001AA4EC /* AppDelegate.m in Sources */,
 			);
@@ -341,6 +397,7 @@
 				9CB36FBA1CE9947E001AA4EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
